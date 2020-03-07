@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import mpl_finance
 import matplotlib.ticker as ticker
 
-start = datetime.datetime(2019,10,1)
+start = datetime.datetime(2018,10,1)
 end = datetime.datetime(2020,2,26)
 
 skhynix = web.DataReader("000660.KS", "yahoo", start, end)
